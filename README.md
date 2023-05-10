@@ -33,21 +33,24 @@ GymPass style app.
 
 ## Comandos do terminal
 
-npm init -y
-npm tsc --init
+- npm init -y
+- npm tsc --init
 
 Dependências de desenvolvimento
-npm i typescript @types/node tsx tsup -D
-npm i fastify
+
+- npm i typescript @types/node tsx tsup -D
+- npm i fastify
 
 ### Configuração do package.json
 
+```
 "scripts": {
-"test": "echo \"Error: no test specified\" && exit 1",
-"start:dev": "tsx watch src/server.ts",
-"start": "node build/server.js",
-"build": "tsup src --out-dir build"
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start:dev": "tsx watch src/server.ts",
+  "start": "node build/server.js",
+  "build": "tsup src --out-dir build"
 },
+```
 
 ### Configuração do tsconfig.json
 
