@@ -39,6 +39,9 @@ GymPass style app.
 Dependências de desenvolvimento
 
 - npm i typescript @types/node tsx tsup -D
+
+Dependências de produção
+
 - npm i fastify
 
 ### Configuração do package.json
