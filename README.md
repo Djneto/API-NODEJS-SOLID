@@ -60,4 +60,10 @@ Dependências de produção
 
 ### Configuração do tsconfig.json
 
-tsconfig.json -> "target": "es2020"
+```
+"target": "es2020"
+"baseUrl": "./",
+"paths": {
+"@/*": ["./src/*"]
+},
+```
