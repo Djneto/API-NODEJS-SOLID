@@ -30,3 +30,25 @@ GymPass style app.
 - [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
+
+## Comandos do terminal
+
+npm init -y
+npm tsc --init
+
+Dependências de desenvolvimento
+npm i typescript @types/node tsx tsup -D
+npm i fastify
+
+### Configuração do package.json
+
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"start:dev": "tsx watch src/server.ts",
+"start": "node build/server.js",
+"build": "tsup src --out-dir build"
+},
+
+### Configuração do tsconfig.json
+
+tsconfig.json -> "target": "es2020"
