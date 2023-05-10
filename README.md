@@ -45,6 +45,7 @@ Dependências de produção
 - npm i fastify
 - npm i dotenv
 - npm i zod
+- npm i eslint @rocketseat/eslint-config -D
 
 ### Configuração do package.json
 
