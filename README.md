@@ -43,6 +43,8 @@ Dependências de desenvolvimento
 Dependências de produção
 
 - npm i fastify
+- npm i dotenv
+- npm i zod
 
 ### Configuração do package.json
 
