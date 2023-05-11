@@ -39,13 +39,15 @@ GymPass style app.
 Dependências de desenvolvimento
 
 - npm i typescript @types/node tsx tsup -D
+- npm i eslint @rocketseat/eslint-config -D
+- npm i prisma -D
 
 Dependências de produção
 
 - npm i fastify
 - npm i dotenv
 - npm i zod
-- npm i eslint @rocketseat/eslint-config -D
+- npm i @prisma/client
 
 ### Configuração do package.json
 
@@ -64,6 +66,11 @@ Dependências de produção
 "target": "es2020"
 "baseUrl": "./",
 "paths": {
-"@/*": ["./src/*"]
+  "@/*": ["./src/*"]
 },
 ```
+
+### Inicializar conexão com banco de dados
+
+npx prisma init
+npx prisma generate
