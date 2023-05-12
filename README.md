@@ -72,5 +72,27 @@ Dependências de produção
 
 ### Inicializar conexão com banco de dados
 
-npx prisma init
-npx prisma generate
+- npx prisma init
+- npx prisma generate
+- Com o container rodando
+- npx prisma migrate dev
+- Visualizar banco npx prisma studio
+
+### Docker
+
+- Docker com postgreSql na máquina local
+- Terminal
+- Criar o container
+
+```
+ docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql
+```
+
+- Listar, Inciar, finalizar e remover o container
+
+```
+ docker ps -a
+ docker start api-solid-pg
+ docker stop <nome>
+ docker rm <nome>
+```
