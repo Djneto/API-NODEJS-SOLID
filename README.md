@@ -96,3 +96,11 @@ Dependências de produção
  docker stop <nome>
  docker rm <nome>
 ```
+
+- Docker compose
+
+```
+docker compose up -d
+docker compose stop
+docker compose down
+```
