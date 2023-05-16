@@ -41,6 +41,7 @@ Dependências de desenvolvimento
 - npm i typescript @types/node tsx tsup -D
 - npm i eslint @rocketseat/eslint-config -D
 - npm i prisma -D
+- npm i -D @types/bcryptjs
 
 Dependências de produção
 
@@ -48,6 +49,7 @@ Dependências de produção
 - npm i dotenv
 - npm i zod
 - npm i @prisma/client
+- npm i bcryptjs
 
 ### Configuração do package.json
 
