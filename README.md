@@ -44,6 +44,7 @@ Dependências de desenvolvimento
 - npm i -D @types/bcryptjs
 - npm i vitest vite-tsconfig-paths -D
 - npm i @vitest/coverage-c8 -D
+- npm i -D @vitest/ui
 
 Dependências de produção
 
@@ -63,7 +64,8 @@ Dependências de produção
   "build": "tsup src --out-dir build",
   "test": "vitest run",
   "test:watch": "vitest",
-  "test:coverage": "vitest run --coverage"
+  "test:coverage": "vitest run --coverage",
+  "test:ui": "vitest --ui"
 },
 ```
 
@@ -110,4 +112,13 @@ Dependências de produção
 docker compose up -d
 docker compose stop
 docker compose down
+```
+
+### Testes
+
+```
+  npm run test
+  npm run test:watch
+  npm run test:coverage
+  npm run test:ui
 ```
