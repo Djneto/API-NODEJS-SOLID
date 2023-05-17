@@ -43,6 +43,7 @@ Dependências de desenvolvimento
 - npm i prisma -D
 - npm i -D @types/bcryptjs
 - npm i vitest vite-tsconfig-paths -D
+- npm i @vitest/coverage-c8 -D
 
 Dependências de produção
 
@@ -61,7 +62,8 @@ Dependências de produção
   "start": "node build/server.js",
   "build": "tsup src --out-dir build",
   "test": "vitest run",
-  "test:watch": "vitest"
+  "test:watch": "vitest",
+  "test:coverage": "vitest run --coverage"
 },
 ```
 
