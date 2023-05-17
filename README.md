@@ -42,6 +42,7 @@ Dependências de desenvolvimento
 - npm i eslint @rocketseat/eslint-config -D
 - npm i prisma -D
 - npm i -D @types/bcryptjs
+- npm i vitest vite-tsconfig-paths -D
 
 Dependências de produção
 
@@ -58,7 +59,9 @@ Dependências de produção
   "test": "echo \"Error: no test specified\" && exit 1",
   "start:dev": "tsx watch src/server.ts",
   "start": "node build/server.js",
-  "build": "tsup src --out-dir build"
+  "build": "tsup src --out-dir build",
+  "test": "vitest run",
+  "test:watch": "vitest"
 },
 ```
 
