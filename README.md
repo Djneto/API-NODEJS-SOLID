@@ -34,7 +34,7 @@ GymPass style app.
 ## Comandos do terminal
 
 - npm init -y
-- npm tsc --init
+- npx tsc --init
 
 Dependências de desenvolvimento
 
