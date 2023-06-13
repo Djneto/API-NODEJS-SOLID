@@ -123,3 +123,23 @@ docker compose down
   npm run test:coverage
   npm run test:ui
 ```
+
+### Autenticação
+
+JWT: JSON Web Token
+
+Usuário faz login, envia e-mail/senha, o back-end cria um token único, não-modificável e STATELESS;
+
+Stateless: Não armazenado em nenhuma estrutura de persistência de dados (banco de dados);
+
+Back-end: Quando vai criar o token ele usa a PALAVRA-CHAVE (string);
+
+Palavra-chave: waqrh564m6s8tf23cv1zc32vbrt8y7hqe9rqw8kujtjk4ui69o8l46;
+
+E-mail/senha -> header.payload.sign
+
+Login -> JWT
+
+JWT -> Todas requisições dali pra frente
+
+Header (cabeçalho): Athorization: Bearer JWT
