@@ -118,11 +118,27 @@ docker compose down
 
 ### Testes
 
+Unitários
+
 ```
   npm run test
   npm run test:watch
   npm run test:coverage
   npm run test:ui
+```
+
+E2E
+
+- Dentro de /prisma/vitest-environment-prisma
+
+```
+  npm link
+```
+
+- Dentro do diretório raiz
+
+```
+  npm link vitest-environment-prisma
 ```
 
 ### Autenticação
