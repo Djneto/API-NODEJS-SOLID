@@ -54,6 +54,7 @@ Dependências de produção
 - npm i @prisma/client
 - npm i bcryptjs
 - npm i dayjs
+- npm i @fastify/jwt
 
 ### Configuração do package.json
 
