@@ -45,6 +45,7 @@ Dependências de desenvolvimento
 - npm i vitest vite-tsconfig-paths -D
 - npm i @vitest/coverage-c8 -D
 - npm i -D @vitest/ui
+- npm i -D npm-run-all
 
 Dependências de produção
 
