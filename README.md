@@ -46,6 +46,8 @@ Dependências de desenvolvimento
 - npm i @vitest/coverage-c8 -D
 - npm i -D @vitest/ui
 - npm i -D npm-run-all
+- npm i supertest -D
+- npm i @types/supertest -D
 
 Dependências de produção
 
