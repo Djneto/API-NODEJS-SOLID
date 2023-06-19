@@ -9,7 +9,7 @@ import { history } from "./history";
 export async function checkInsRoutes(app: FastifyInstance) {
   app.addHook('onRequest', verifyJWT)
   
-  app.get('/check-ins/hisotry', history)
+  app.get('/check-ins/history', history)
   app.get('/check-ins/metrics', metrics)
 
   app.post('/gyms/:gymId/check-ins', create)
